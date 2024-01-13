@@ -1,10 +1,10 @@
 module clock_divider (input Clock, Reset_n, output reg clk_ms);
 	
-	parameter factor=10; //50000; // 32'h000061a7;
+	parameter factor=10; //50000 --> 50e6 / 50e3 --> 1kHZ counts 1ms
 	reg [31:0] countQ;
 	always @ (posedge Clock, negedge Reset_n) begin
 		if (!Reset_n) begin
-		/* fill in your code here */
+		
 			countQ = 32'b0;
 			clk_ms <= 1'b0;
 		
