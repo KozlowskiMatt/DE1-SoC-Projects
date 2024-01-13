@@ -1,0 +1,138 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/mattk/Desktop/McMaster/MECHTRON_3TB4_TA/MTB4Labs/lab1/Part1/simulation/qsim
+vfour_bit_counter
+Z1 !s110 1705117334
+!i10b 1
+!s100 lb@;zaMNeD3V6J^[zAX0W2
+Ij:QhL^Y1CPiL8mJLS^FnH2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1705117333
+Z3 8lab1part1.vo
+Z4 Flab1part1.vo
+Z5 L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1705117334.000000
+Z8 !s107 lab1part1.vo|
+Z9 !s90 -work|work|lab1part1.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vfour_bit_counter_vlg_vec_tst
+R1
+!i10b 1
+!s100 3A>?JC@e8U^0k8n8VKh7N3
+I@7dPdjfS_6P13a8AgM9YW1
+R2
+R0
+w1705117331
+8four_bit_counter.vwf.vt
+Ffour_bit_counter.vwf.vt
+Z12 L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 four_bit_counter.vwf.vt|
+!s90 -work|work|four_bit_counter.vwf.vt|
+!i113 1
+R10
+R11
+vlab1part1
+Z13 !s110 1705115972
+!i10b 1
+!s100 k47^ZnU1<cja1J@MG=9G62
+I<k4BaYDOH`B22R1;gN_3J3
+R2
+R0
+w1705115971
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z14 !s108 1705115972.000000
+R8
+R9
+!i113 1
+R10
+R11
+vlab1part1_vlg_vec_tst
+R13
+!i10b 1
+!s100 WmfF`IRZImUzG=23h0TT>2
+I8=EJkzgMP3O6NL4b22W3a1
+R2
+R0
+w1705115970
+8DFF.vwf.vt
+FDFF.vwf.vt
+R12
+R6
+r1
+!s85 0
+31
+R14
+!s107 DFF.vwf.vt|
+!s90 -work|work|DFF.vwf.vt|
+!i113 1
+R10
+R11
+vMUX4_to_1
+Z15 !s110 1705116652
+!i10b 1
+!s100 P=RLm5C6AO`kU_NS@_;8;0
+INV7hYV`1f[Aj]dB4gm9N12
+R2
+R0
+w1705116651
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z16 !s108 1705116652.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@m@u@x4_to_1
+vMUX4_to_1_vlg_vec_tst
+R15
+!i10b 1
+!s100 <0_ZAJQf<KB^4NUaZKb@j3
+ISJ>B]EMQ@aVh>58jVX^J=0
+R2
+R0
+w1705116650
+8MUX_4_to_1.vwf.vt
+FMUX_4_to_1.vwf.vt
+R12
+R6
+r1
+!s85 0
+31
+R16
+!s107 MUX_4_to_1.vwf.vt|
+!s90 -work|work|MUX_4_to_1.vwf.vt|
+!i113 1
+R10
+R11
+n@m@u@x4_to_1_vlg_vec_tst

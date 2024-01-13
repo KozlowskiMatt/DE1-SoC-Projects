@@ -1,0 +1,93 @@
+|lab1part3
+SW[0] => reg_LEDs.IN1
+SW[0] => reg_LEDs.IN1
+SW[0] => reg_LEDs.IN1
+SW[0] => reg_LEDs.IN1
+SW[0] => Decoder0.IN3
+SW[0] => reg_LEDs.IN1
+SW[0] => reg_LEDs.IN0
+SW[0] => reg_LEDs.IN1
+SW[0] => reg_LEDs.IN0
+SW[1] => reg_LEDs.IN1
+SW[1] => reg_LEDs.IN0
+SW[1] => reg_LEDs.IN0
+SW[1] => Decoder0.IN2
+SW[1] => reg_LEDs.IN0
+SW[1] => reg_LEDs.IN0
+SW[1] => reg_LEDs.IN1
+SW[2] => reg_LEDs.IN1
+SW[2] => reg_LEDs.IN0
+SW[2] => Decoder0.IN1
+SW[2] => reg_LEDs.IN0
+SW[2] => reg_LEDs.IN1
+SW[2] => reg_LEDs.IN0
+SW[3] => reg_LEDs.IN1
+SW[3] => reg_LEDs.IN1
+SW[3] => Decoder0.IN0
+SW[3] => reg_LEDs.IN1
+SW[3] => reg_LEDs.IN1
+SW[3] => reg_LEDs.IN1
+SW[3] => reg_LEDs.IN1
+SW[4] => ~NO_FANOUT~
+SW[5] => ~NO_FANOUT~
+SW[6] => ~NO_FANOUT~
+SW[7] => ~NO_FANOUT~
+SW[8] => Mux2.IN5
+SW[8] => Mux0.IN5
+SW[8] => Mux5.IN5
+SW[8] => Mux7.IN5
+SW[8] => Mux9.IN5
+SW[8] => Mux11.IN5
+SW[8] => Mux14.IN5
+SW[8] => Mux15.IN5
+SW[9] => Mux2.IN4
+SW[9] => Mux0.IN4
+SW[9] => Mux5.IN4
+SW[9] => Mux7.IN4
+SW[9] => Mux9.IN4
+SW[9] => Mux11.IN4
+SW[9] => Mux14.IN4
+SW[9] => Mux15.IN4
+KEY[0] => KEY[0].IN2
+KEY[1] => ~NO_FANOUT~
+KEY[2] => ~NO_FANOUT~
+KEY[3] => KEY[3].IN1
+HEX0[0] <= reg_LEDs[0].DB_MAX_OUTPUT_PORT_TYPE
+HEX0[1] <= reg_LEDs[1].DB_MAX_OUTPUT_PORT_TYPE
+HEX0[2] <= reg_LEDs[2].DB_MAX_OUTPUT_PORT_TYPE
+HEX0[3] <= reg_LEDs[3].DB_MAX_OUTPUT_PORT_TYPE
+HEX0[4] <= reg_LEDs[4].DB_MAX_OUTPUT_PORT_TYPE
+HEX0[5] <= reg_LEDs[5].DB_MAX_OUTPUT_PORT_TYPE
+HEX0[6] <= reg_LEDs[6].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab1part3|counter_clk50:comb_10
+clk => result[0]~reg0.CLK
+clk => result[1]~reg0.CLK
+clk => result[2]~reg0.CLK
+clk => result[3]~reg0.CLK
+reset_n => result[0]~reg0.ACLR
+reset_n => result[1]~reg0.ACLR
+reset_n => result[2]~reg0.ACLR
+reset_n => result[3]~reg0.ACLR
+result[0] <= result[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= result[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= result[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= result[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab1part3|counter_KEY3:comb_11
+enable => result[0]~reg0.CLK
+enable => result[1]~reg0.CLK
+enable => result[2]~reg0.CLK
+enable => result[3]~reg0.CLK
+reset => result[0]~reg0.ACLR
+reset => result[1]~reg0.ACLR
+reset => result[2]~reg0.ACLR
+reset => result[3]~reg0.ACLR
+result[0] <= result[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= result[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= result[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= result[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

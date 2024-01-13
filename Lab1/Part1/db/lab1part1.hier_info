@@ -1,0 +1,19 @@
+|four_bit_counter
+clk => result[0]~reg0.CLK
+clk => result[1]~reg0.CLK
+clk => result[2]~reg0.CLK
+clk => result[3]~reg0.CLK
+enable => result.OUTPUTSELECT
+enable => result.OUTPUTSELECT
+enable => result.OUTPUTSELECT
+enable => result.OUTPUTSELECT
+reset => result.OUTPUTSELECT
+reset => result.OUTPUTSELECT
+reset => result.OUTPUTSELECT
+reset => result.OUTPUTSELECT
+result[0] <= result[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= result[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= result[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= result[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
