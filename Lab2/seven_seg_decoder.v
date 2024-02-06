@@ -1,5 +1,7 @@
 module seven_seg_decoder (input [3:0]digit, output [6:0] HEX0);
 
+//*** MK ***//
+
 	reg [6:0] reg_LEDs;
 	assign HEX0[6:0] = reg_LEDs[6:0];
 	
