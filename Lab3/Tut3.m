@@ -23,7 +23,7 @@ coeff = firgr(60,[0,fkill-0.1,fkill,fkill+0.1,1],[1,1,0,1,1], {'n','n','s','n','
 freqz(coeff,1);
 coeff*32768
 
-fid = fopen("C:\Users\mattk\Desktop\McMaster\MECHTRON_3TB4_TA\MTB4Labs\lab3\tut3_coeff.txt","w");
+fid = fopen(output_text_file_directory,"w");
 
 for i =1:length(coeff)
     fprintf(fid,'coeff[%3.0f]=%10.0f;\n',i-1,32768*coeff(i));
