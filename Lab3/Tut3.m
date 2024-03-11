@@ -2,6 +2,7 @@
 
 output_file_directory = ""; % Insert output file directory here (.wav)
 input_file_directory = "";  % Insert input file directory here (.wav)
+output_text_file_directory = ""; % Insert output text file directory here(.txt) used to store FIR filter coefficients
 
 %%% Read the unfiltered sounds %%%
 [x,fs] = audioread(input_file_directory);
